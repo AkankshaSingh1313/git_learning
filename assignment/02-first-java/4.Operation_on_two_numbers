@@ -1,0 +1,30 @@
+// Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter num1: ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter num2: ");
+        int num2 = sc.nextInt();
+        System.out.println("Enter operation to perform: ");
+        String operator = sc.next();
+        
+        if(operator.equals("+")){
+            System.out.println("Sum of num1 and num2 is: "+(num1 + num2));
+        }else if(operator.equals("-")){
+            System.out.println("Difference of num1 and num2 is: "+(num1 - num2));
+        }else if(operator.equals("*")){
+            System.out.println("Product of num1 and num2 is: "+(num1 * num2));
+        }else if(operator.equals("/")){
+            if(num2 != 0){
+                System.out.println("num1 / num2 is: "+(num1 / num2));
+            }else{
+                System.out.println("Error: Divisiblity by 0 is not allowed.");
+            }
+        }else{
+            System.out.println("Operator is not correct.");
+        }
+    }
+}
