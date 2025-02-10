@@ -1,3 +1,4 @@
-# git_learning
+# Learning
 
-Welcome to the Learning Repository! This repository is created to become familiar with various Git commands and best practices.
+Welcome to the Learning Repository! 
+Just solving assignment questions of this (https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments) link.
