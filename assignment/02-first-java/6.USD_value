@@ -1,0 +1,14 @@
+// Input currency in rupees and output in USD.
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter currency(in Rupees): ");
+        int num = sc.nextInt();
+        System.out.println();
+        float value = num * 0.011f;
+        
+        System.out.println("Value of currency in USD: " + value);
+    }
+}
